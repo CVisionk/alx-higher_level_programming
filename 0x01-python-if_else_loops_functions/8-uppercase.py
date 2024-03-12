@@ -4,5 +4,6 @@ def uppercase(s):
         temp = i;
         if ord(i) >= 97 and ord(i) <= 122:
             temp  = chr(ord(i) - 32)
-        print(temp, end='')
+        print('{}'.format(temp), end='')
     print('')
+uppercase("Best School 98 Battery street")
