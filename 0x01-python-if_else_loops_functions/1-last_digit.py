@@ -2,7 +2,7 @@
 import random
 number = random.randint(-10000, 10000)
 lastDigit = 0
-if (number != '0'):
+if (number != 0):
     lastDigit = int(int(str(number)[-1])*(number/abs(number)))
 if lastDigit == 0:
     line = "is 0"
