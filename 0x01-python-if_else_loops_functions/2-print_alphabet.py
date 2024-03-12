@@ -1,2 +1,3 @@
 #!/usr/bin/python3
-print('abcdefghijklmnopqrstuvwxyz'.format(), end='')
+for letter in range(97, 123):
+    print('{}'.format(chr(letter)), end='')
