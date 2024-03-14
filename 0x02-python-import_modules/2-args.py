@@ -8,7 +8,7 @@ if __name__ == "__main__":
     elif num_args == 1:
         print("{} argument:".format(num_args))
     else:
-        print("{} arguments:".format(num_args))
+        print("{} arguments:".forimat(num_args))
 
     for i, arg in enumerate(sys.argv[1:], start=1):
-        print("{} : {}".format(i, arg))
+        print("{}: {}".format(i, arg))
