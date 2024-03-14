@@ -1,2 +1,3 @@
-from add_0.python import add
-print(1, 2)
+#!/usr/bin/python3
+from add_0 import add
+print(add(1, 2))
