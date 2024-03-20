@@ -77,3 +77,20 @@ Prototype: def simple_delete(a_dictionary, key=""):
 key argument will be always a string
 If a key doesn’t exist, the dictionary won’t change
 You are not allowed to import any module
+
+ ### 9-multiply_by_2.py
+Write a function that returns a new dictionary with all values multiplied by 2
+
+Prototype: def multiply_by_2(a_dictionary):
+You can assume that all values are only integers
+Returns a new dictionary
+You are not allowed to import any module
+
+ ### 10-best_score.py
+Write a function that returns a key with the biggest integer value.
+
+Prototype: def best_score(a_dictionary):
+You can assume that all values are only integers
+If no score found, return None
+You can assume all students have a different score
+You are not allowed to import any module
