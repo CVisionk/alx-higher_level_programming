@@ -14,7 +14,7 @@ if __name__ == "__main__":
     q = sys.argv[1] if len(sys.argv) > 1 else ""
     payload = {'q': q}
     response = requests.post(url, data=payload)
-    
+
     try:
         json_response = response.json()
         if json_response:
